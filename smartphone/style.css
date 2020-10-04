@@ -1,3 +1,96 @@
-p{
-    color: brown;
+
+body{
+    background-image: url("image/flower.jpg");
+    
 }
+
+
+
+
+.container {
+    width: 25vw;
+    height: 80vh;
+    margin: 0 auto;
+    
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-around;
+background-color: rgb(21, 211, 218);
+
+
+    }
+
+    .box {
+        width: 3vw;
+        height: 6vh;
+        background: rgb(74, 228, 177);
+        margin: 4px;
+        border-radius: 10px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    margin:6px ;
+    position: relative;
+    top:8%;
+    
+    
+      } 
+    .flexed {
+        display: flex;
+        flex-direction:row;
+        
+}
+  #color{
+      background-color:rgb(25, 157, 197);
+  }
+
+#yellow{
+    background-color: rgb(84, 236, 186);
+
+}
+
+#red{
+    background-color: rgb(101, 142, 233);
+}
+
+#balck{
+    background-color: rgb(148, 137, 224);
+}
+
+
+
+  .first-section{
+    flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+display: flex;
+
+  }
+.secound-section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.third-section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.fourth-section{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.fivth-section{
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+  
+  
+  
